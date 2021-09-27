@@ -16,18 +16,14 @@ header{
 }
 .flex-container div{
 	background-color:aliceblue;
-	flex-grow:5;
-	height:150px;
-	align-items:stretch;
+	flex-grow:4;
+	height:135px;
 }
 
-.flex-container .nav{
+.flex-container .flex-nav{
 	flex-grow:1;
 	flex-direction:column;
-	align-items:stretch;
 }
-
-
 footer{
 	width:100%;
 	text-align:center;
